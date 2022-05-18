@@ -1,0 +1,60 @@
+package com.service;
+
+import com.model.Employee;
+import com.model.NoMoreSpaceInArrayException;
+
+public class EmployeeWorksImpl implements EmployeeWorksInterface {
+
+	@Override
+	public Employee[] addEmployee(Employee[] oldEmployeesArr, Employee newEmployee) throws NoMoreSpaceInArrayException {
+		try {
+			
+		} catch (NoMoreSpaceInArrayException e) {
+			// TODO: handle exception
+		}
+		return null;
+	}
+
+	@Override
+	public boolean checkForEmployeeById(Employee[] employees, int employeeId) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean checkForEmployeeByName(Employee[] employees, String employeeName) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public Employee getEmployeeById(Employee[] employees, int employeeId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Employee getEmployeeByName(Employee[] employees, String employeeName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Employee[] removeEmployeeById(Employee[] employees, int employeeId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Employee[] removeEmployeeByName(Employee[] employees, String employeeName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void readAllEmployees(Employee[] employees) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

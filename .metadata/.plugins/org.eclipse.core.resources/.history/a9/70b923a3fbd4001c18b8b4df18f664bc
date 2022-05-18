@@ -1,0 +1,44 @@
+package com.main;
+
+import com.model.Employee;
+import java.util.Scanner;
+
+public class EmpApp {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		Employee[] employees;
+		System.out.println("Mg");
+		while (scan.hasNextInt()) {
+			/*
+			 * System.out.println("Press 1 to create a new employee");
+			 * System.out.println("Press 2 to edit an employee");
+			 * System.out.println("Press 3 to read employee details");
+			 * System.out.println("Press 4 to delete an employee");
+			 * System.out.println("Press any other key to terminate");
+			 */
+			int a = scan.nextInt();
+			//System.out.println(a); //for input testing
+			if (a < 1 || a > 4) {
+				break;
+			} else {
+				switch (a) {
+				case 1:
+					break;
+				case 2:
+					break;
+				case 3:
+					break;
+				case 4:
+					break;
+				default:
+					//
+				}
+
+			}
+		}
+		System.out.println("Terminated");
+
+	}
+
+}

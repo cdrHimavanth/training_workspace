@@ -1,0 +1,31 @@
+package com.service;
+
+public class CalculatorServiceImpl implements CalculatorService {
+
+	@Override
+	public int add(int num1, int num2) {
+		return num1+num2;
+	}
+
+	@Override
+	public int sub(int num1, int num2) {
+		return num1-num2;
+	}
+
+	@Override
+	public int mul(int num1, int num2) {
+		return num1*num2;
+	}
+	
+	@Override
+	public int div(int num1,int num2) {
+		int result =0;
+		try {
+			result=num1/num2;
+		} catch (ArithmeticException ae) {
+			System.err.println("There is an error due to : "+ae.getMessage());
+		}
+		return result;
+	}
+
+}

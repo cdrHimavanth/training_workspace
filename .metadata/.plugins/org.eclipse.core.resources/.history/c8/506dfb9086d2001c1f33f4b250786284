@@ -1,0 +1,9 @@
+package com.model;
+
+public class MyInterfaceImpl {
+
+	public MyInterfaceImpl() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

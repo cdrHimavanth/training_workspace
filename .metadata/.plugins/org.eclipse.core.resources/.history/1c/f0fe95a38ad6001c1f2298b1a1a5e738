@@ -1,0 +1,37 @@
+package com.service;
+
+import com.model.Wallet;
+
+public class WalletWorksImpl implements WalletWorksInterface {
+
+	@Override
+	public int totalMoneyInWallet(Wallet wallet) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int totalNoOfCoins(Wallet wallet) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int totalNoOfNotes(Wallet wallet) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int totalValueOfCoins(Wallet wallet) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int totalValueOfNotes(Wallet wallet) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

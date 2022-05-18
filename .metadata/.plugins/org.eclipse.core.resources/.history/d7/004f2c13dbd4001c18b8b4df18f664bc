@@ -1,0 +1,11 @@
+package com.model;
+
+public class ContractEmployee extends Employee {
+
+	@Override
+	public float calculateSalary() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

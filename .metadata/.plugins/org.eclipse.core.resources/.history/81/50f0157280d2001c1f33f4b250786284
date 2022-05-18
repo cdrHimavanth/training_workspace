@@ -1,0 +1,9 @@
+package com.model;
+
+public class MyCalculator {
+
+	public MyCalculator() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

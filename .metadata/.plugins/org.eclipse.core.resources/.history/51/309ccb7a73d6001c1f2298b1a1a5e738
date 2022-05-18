@@ -1,0 +1,21 @@
+package com.model;
+
+public class Address {
+	private int homeNum;
+
+	public int getHomeNum() {
+		return homeNum;
+	}
+
+	public void setHomeNum(int homeNum) {
+		this.homeNum = homeNum;
+	}
+
+	public Address() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Address(int homeNum) {
+		this.homeNum=homeNum;
+	}
+}

@@ -1,0 +1,6 @@
+package com.model;
+
+public class PaperMoney {
+	private int denomination;
+	private int mintDate;
+}

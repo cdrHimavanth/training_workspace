@@ -1,0 +1,11 @@
+package com.model;
+
+public abstract class Vehicle {
+	private int cost;
+	private int noOfWheels;
+	public void start() {
+		System.out.println("The vehicle has been started!!");
+	};
+	public abstract void accelerate();
+	public abstract void decelerate();
+}

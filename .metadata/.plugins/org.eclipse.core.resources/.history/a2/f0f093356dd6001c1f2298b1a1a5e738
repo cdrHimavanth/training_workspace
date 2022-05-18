@@ -1,0 +1,14 @@
+package com.main;
+
+import com.model.Department;
+
+public class CollectionsMain {
+
+	public static void main(String[] args) {
+		Department department1 = new Department(10,"Development1");
+		Department department2 = new Department(11,"Development2");
+		Department department3 = new Department(12,"Development3");
+
+	}
+
+}

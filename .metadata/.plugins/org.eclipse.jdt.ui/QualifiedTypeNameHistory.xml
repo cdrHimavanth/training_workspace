@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="Employee"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="Department"/>
+    <fullyQualifiedTypeName name="com.services.Printer"/>
+    <fullyQualifiedTypeName name="com.services.Addition"/>
+    <fullyQualifiedTypeName name="com.services.Calculator"/>
+    <fullyQualifiedTypeName name="com.services.DeptWorks"/>
+    <fullyQualifiedTypeName name="com.services.EmpWorks"/>
+    <fullyQualifiedTypeName name="com.services.CheckEmployee"/>
+    <fullyQualifiedTypeName name="com.service.BusinessLogic"/>
+    <fullyQualifiedTypeName name="com.model.FinalEx"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.model.Department"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="com.model.Car"/>
+    <fullyQualifiedTypeName name="com.model.Vehicle"/>
+    <fullyQualifiedTypeName name="com.model.PermanentEmployee"/>
+    <fullyQualifiedTypeName name="com.model.InterfaceOne"/>
+    <fullyQualifiedTypeName name="com.model.MyClassImpl"/>
+    <fullyQualifiedTypeName name="com.model.InterfaceTwo"/>
+    <fullyQualifiedTypeName name="com.model.Employee"/>
+    <fullyQualifiedTypeName name="com.service.EmployeeWorks"/>
+    <fullyQualifiedTypeName name="com.service.CalculatorService"/>
+    <fullyQualifiedTypeName name="com.service.CalculatorServiceImpl"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="com.exceptions.ManualException1"/>
+</qualifiedTypeNameHistroy>

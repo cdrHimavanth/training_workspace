@@ -1,0 +1,61 @@
+package com.model;
+
+public class MyInterfaceImpl implements SciInterface {
+
+	@Override
+	public int mod(int num1, int num2) {
+		
+		return num1%num2;
+	}
+
+	@Override
+	public int add(int num1, int num2) {
+		
+		return num1+num2;
+	}
+
+	@Override
+	public int sub(int num1, int num2) {
+		
+		return num1-num2;
+	}
+
+	@Override
+	public int mul(int num1, int num2) {
+		
+		return num1*num2;
+	}
+
+	@Override
+	public int div(int num1, int num2) {
+		
+		return num1/num2;
+	}
+	
+	public int root(int num1,int num2) {
+		int rootLow=0;
+		int root=0;
+		int rootHigh=0;
+		
+		for(int i=1;i<num2/3;i++) {
+			int powered =1;
+			for(int j=1;j<=num1;j++) {
+				powered=powered*i;
+			}
+			if(powered<num2) {
+				rootLow=i;
+			}else if(powered >num2) {
+				rootHigh=i;
+			}else {
+				root =i;
+				break;
+			}
+		}
+		
+		
+		return (rootLow+rootHigh+root)/2;
+	}
+
+	
+
+}
