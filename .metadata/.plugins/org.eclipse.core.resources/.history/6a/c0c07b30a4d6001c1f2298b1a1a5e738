@@ -43,9 +43,6 @@ public class EmployeeWorksImpl implements EmployeeWorksInterface {
 				break;
 			}
 		}
-		if(!exists) {
-			System.out.println("Employee with Id  : "+employeeId+" doesn't exists");
-		}
 		return exists;
 	}
 
@@ -58,31 +55,18 @@ public class EmployeeWorksImpl implements EmployeeWorksInterface {
 				break;
 			}
 		}
-		if(!exists) {
-			System.out.println("Employee with name  : "+employeeName+" doesn't exists");
-		}
 		return exists;
 	}
 
 	@Override
 	public Employee getEmployeeById(Employee[] employees, int employeeId) {
-		for(Employee employee:employees) {
-			if(employee.getEmpId()==employeeId) {
-				return employee;
-			}
-		}
-		System.out.println("Employee with Id  : "+employeeId+" doesn't exists");
+		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public Employee getEmployeeByName(Employee[] employees, String employeeName) {
-		for(Employee employee:employees) {
-			if(employee.getEmpName().equals(employeeName)) {
-				return employee;
-			}
-		}
-		System.out.println("Employee with name  : "+employeeName+" doesn't exists");
+		// TODO Auto-generated method stub
 		return null;
 	}
 

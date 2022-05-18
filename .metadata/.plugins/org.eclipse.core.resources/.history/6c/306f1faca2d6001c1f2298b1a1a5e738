@@ -36,53 +36,25 @@ public class EmployeeWorksImpl implements EmployeeWorksInterface {
 
 	@Override
 	public boolean checkForEmployeeById(Employee[] employees, int employeeId) {
-		boolean exists=false;
-		for(Employee employee:employees) {
-			if(employee.getEmpId()==employeeId) {
-				exists=true;
-				break;
-			}
-		}
-		if(!exists) {
-			System.out.println("Employee with Id  : "+employeeId+" doesn't exists");
-		}
-		return exists;
+		// TODO Auto-generated method stub
+		return false;
 	}
 
 	@Override
 	public boolean checkForEmployeeByName(Employee[] employees, String employeeName) {
-		boolean exists=false;
-		for(Employee employee:employees) {
-			if(employee.getEmpName().equals(employeeName)) {
-				exists=true;
-				break;
-			}
-		}
-		if(!exists) {
-			System.out.println("Employee with name  : "+employeeName+" doesn't exists");
-		}
-		return exists;
+		// TODO Auto-generated method stub
+		return false;
 	}
 
 	@Override
 	public Employee getEmployeeById(Employee[] employees, int employeeId) {
-		for(Employee employee:employees) {
-			if(employee.getEmpId()==employeeId) {
-				return employee;
-			}
-		}
-		System.out.println("Employee with Id  : "+employeeId+" doesn't exists");
+		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public Employee getEmployeeByName(Employee[] employees, String employeeName) {
-		for(Employee employee:employees) {
-			if(employee.getEmpName().equals(employeeName)) {
-				return employee;
-			}
-		}
-		System.out.println("Employee with name  : "+employeeName+" doesn't exists");
+		// TODO Auto-generated method stub
 		return null;
 	}
 
