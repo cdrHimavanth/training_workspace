@@ -6,9 +6,8 @@ import java.util.List;
 public class Wallet {
 	private int walletId;
 	private String ownerName;
-	private List<Coin> coins;
-	private List<PaperMoney> notes;
-
+	private List<Coin> coins = new ArrayList();
+	private List<PaperMoney> notes= new ArrayList();
 	public Wallet() {
 		super();
 	}
@@ -16,8 +15,6 @@ public class Wallet {
 	public Wallet(int walletId, String ownerName) {
 		this.walletId = walletId;
 		this.ownerName = ownerName;
-		this.coins = new ArrayList<Coin>();
-		this.notes = new ArrayList<PaperMoney>();
 	}
 
 	public Wallet(int walletId, String ownerName, List<Coin> coins, List<PaperMoney> notes) {
@@ -26,6 +23,8 @@ public class Wallet {
 		this.coins = coins;
 		this.notes = notes;
 	}
+
+	
 
 	public int getWalletId() {
 		return walletId;
@@ -50,11 +49,11 @@ public class Wallet {
 	public void setCoins(List<Coin> coins) {
 		this.coins = coins;
 	}
-
+	
 	public void addCoins(Coin coins) {
 		this.coins.add(coins);
 	}
-
+	
 	public void addNotes(PaperMoney coins) {
 		this.notes.add(coins);
 	}

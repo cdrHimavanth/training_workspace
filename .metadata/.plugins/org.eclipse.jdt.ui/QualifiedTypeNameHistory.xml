@@ -12,7 +12,6 @@
     <fullyQualifiedTypeName name="com.service.BusinessLogic"/>
     <fullyQualifiedTypeName name="com.model.FinalEx"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="com.model.Department"/>
     <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="com.model.Car"/>
@@ -21,10 +20,23 @@
     <fullyQualifiedTypeName name="com.model.InterfaceOne"/>
     <fullyQualifiedTypeName name="com.model.MyClassImpl"/>
     <fullyQualifiedTypeName name="com.model.InterfaceTwo"/>
-    <fullyQualifiedTypeName name="com.model.Employee"/>
     <fullyQualifiedTypeName name="com.service.EmployeeWorks"/>
     <fullyQualifiedTypeName name="com.service.CalculatorService"/>
     <fullyQualifiedTypeName name="com.service.CalculatorServiceImpl"/>
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
     <fullyQualifiedTypeName name="com.exceptions.ManualException1"/>
+    <fullyQualifiedTypeName name="com.model.Employee"/>
+    <fullyQualifiedTypeName name="com.model.NoMoreSpaceInArrayException"/>
+    <fullyQualifiedTypeName name="com.service.EmployeeWorksImpl"/>
+    <fullyQualifiedTypeName name="com.service.EmployeeWorksInterface"/>
+    <fullyQualifiedTypeName name="com.model.Department"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="com.model.Address"/>
+    <fullyQualifiedTypeName name="com.model.Wallet"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.model.Coin"/>
+    <fullyQualifiedTypeName name="com.model.PaperMoney"/>
+    <fullyQualifiedTypeName name="com.service.WalletWorksInterface"/>
+    <fullyQualifiedTypeName name="com.service.WalletWorksImpl"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

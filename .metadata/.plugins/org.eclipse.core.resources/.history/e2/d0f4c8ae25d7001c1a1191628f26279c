@@ -16,8 +16,8 @@ public class Wallet {
 	public Wallet(int walletId, String ownerName) {
 		this.walletId = walletId;
 		this.ownerName = ownerName;
-		this.coins = new ArrayList<Coin>();
-		this.notes = new ArrayList<PaperMoney>();
+		this.coins = new ArrayList<>();
+		this.notes = new ArrayList<>();
 	}
 
 	public Wallet(int walletId, String ownerName, List<Coin> coins, List<PaperMoney> notes) {

@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\training_workspace\mavenmessing"/>
 			<item value="D:\training_workspace\may12assignment\src\com\model\Employee.java"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -49,6 +50,9 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="maven18task"/>
+			<item value="mavencollectiondemo"/>
+			<item value="mavenwithexception17task"/>
 			<item value="maveninterfacebased1"/>
 			<item value="may16task"/>
 			<item value="demo6"/>

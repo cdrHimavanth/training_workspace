@@ -23,7 +23,6 @@ public class WalletMain {
 		PaperMoney paperMoney2000 = new PaperMoney(2000, 2001);
 		
 		Wallet wallet = new Wallet(1, "asd");
-		
 		wallet.addCoins(coin1);
 		wallet.addCoins(coin2);
 		wallet.addCoins(coin5);
@@ -33,7 +32,6 @@ public class WalletMain {
 		wallet.addCoins(coin1);
 		wallet.addCoins(coin1);
 		wallet.addCoins(coin1);
-		
 		wallet.addNotes(paperMoney2000);
 		wallet.addNotes(paperMoney200);
 		wallet.addNotes(paperMoney20);
