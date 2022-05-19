@@ -5,9 +5,23 @@ import com.model.Employee;
 import com.model.NoMoreSpaceInArrayException;
 
 public class EmployeeWorksImpl implements EmployeeWorksInterface {
+	@Override
+	public Employee[] addEmployeeWithOldMethod(Employee[] oldEmployeesArr, Employee newEmployee) {
+		//long startTime = System.currentTimeMillis();
+		int count = oldEmployeesArr.length;
+		Employee[] employees = new Employee[count+1];
+		for (int i = 0; i < count; i++) {
+			employees[i] = oldEmployeesArr[i];
+		}
+		System.out.println("old running");
+		employees[count] = newEmployee;
+		//System.out.println("Time taken for operation in milli seconds  :  "+(System.currentTimeMillis()-startTime));
+		return employees;
+	}
 
 	@Override
 	public Employee[] addEmployee(Employee[] oldEmployeesArr, Employee newEmployee) throws NoMoreSpaceInArrayException {
+		System.out.println("New running");
 		Employee[] newEmployeesArr=null;
 		boolean gapIsPresent=false;
 		try {
@@ -25,7 +39,7 @@ public class EmployeeWorksImpl implements EmployeeWorksInterface {
 		} catch (NoMoreSpaceInArrayException e) {
 			int count = oldEmployeesArr.length;
 			newEmployeesArr = new Employee[count+(count/2)+8];
-			System.out.println(newEmployeesArr.length+" Is The Size");
+			//System.out.println(newEmployeesArr.length+" Is The Size");
 			for (int i = 0; i < count; i++) {
 				newEmployeesArr[i] = oldEmployeesArr[i];
 			}
@@ -37,10 +51,12 @@ public class EmployeeWorksImpl implements EmployeeWorksInterface {
 	@Override
 	public boolean checkForEmployeeById(Employee[] employees, int employeeId) {
 		boolean exists=false;
-		for(Employee employee:employees) {
-			if(employee.getEmpId()==employeeId) {
-				exists=true;
-				break;
+		for(int i=0;i<employees.length;i++) {
+			if(employees[i]!=null) {
+				if(employees[i].getEmpId()==employeeId) {
+					exists=true;
+					break;
+				}
 			}
 		}
 		if(!exists) {
@@ -88,8 +104,14 @@ public class EmployeeWorksImpl implements EmployeeWorksInterface {
 
 	@Override
 	public Employee[] removeEmployeeById(Employee[] employees, int employeeId) {
-		// TODO Auto-generated method stub
-		return null;
+		for(int i=0;i<employees.length;i++) {
+			if(employees[i]!=null) {
+				if(employees[i].getEmpId()==employeeId) {
+					employees[i]=null;
+				}
+			}
+		}
+		return employees;
 	}
 
 	@Override

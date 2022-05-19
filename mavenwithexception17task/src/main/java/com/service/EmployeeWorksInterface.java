@@ -5,6 +5,8 @@ import com.model.NoMoreSpaceInArrayException;
 
 public interface EmployeeWorksInterface {
 	public abstract Employee[] addEmployee(Employee[] oldEmployeesArr, Employee newEmployee) throws NoMoreSpaceInArrayException;
+	
+	public abstract Employee[] addEmployeeWithOldMethod(Employee[] oldEmployeesArr, Employee newEmployee);
 
 	public abstract boolean checkForEmployeeById(Employee[] employees, int employeeId);
 
