@@ -25,7 +25,6 @@
     <fullyQualifiedTypeName name="com.service.CalculatorServiceImpl"/>
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
     <fullyQualifiedTypeName name="com.exceptions.ManualException1"/>
-    <fullyQualifiedTypeName name="com.model.Employee"/>
     <fullyQualifiedTypeName name="com.model.NoMoreSpaceInArrayException"/>
     <fullyQualifiedTypeName name="com.service.EmployeeWorksImpl"/>
     <fullyQualifiedTypeName name="com.service.EmployeeWorksInterface"/>
@@ -33,10 +32,18 @@
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="com.model.Address"/>
     <fullyQualifiedTypeName name="com.model.Wallet"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.model.Coin"/>
     <fullyQualifiedTypeName name="com.model.PaperMoney"/>
     <fullyQualifiedTypeName name="com.service.WalletWorksInterface"/>
     <fullyQualifiedTypeName name="com.service.WalletWorksImpl"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="com.model.SortById"/>
+    <fullyQualifiedTypeName name="com.model.SortBySalary"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="com.main.QueueDemo"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.model.Employee"/>
 </qualifiedTypeNameHistroy>
