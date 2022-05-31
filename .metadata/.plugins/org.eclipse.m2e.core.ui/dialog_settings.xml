@@ -51,6 +51,14 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="jdbctrailanderror"/>
+			<item value="mavenjdbcdemo1"/>
+			<item value="streamsmavendemo"/>
+			<item value="methodrteferences"/>
+			<item value="predefinedfunctionalinterfaces"/>
+			<item value="junitpractice"/>
+			<item value="functionalinterfacelambda"/>
+			<item value="java8features"/>
 			<item value="mavenmay20"/>
 			<item value="maven19demo"/>
 			<item value="maven18task"/>
@@ -58,10 +66,6 @@
 			<item value="mavenwithexception17task"/>
 			<item value="maveninterfacebased1"/>
 			<item value="may16task"/>
-			<item value="demo6"/>
-			<item value="mavenassignments"/>
-			<item value="mavenmessing"/>
-			<item value="mavendemo"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

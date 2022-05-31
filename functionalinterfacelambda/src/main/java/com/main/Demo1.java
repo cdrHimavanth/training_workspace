@@ -10,6 +10,12 @@ public class Demo1 {
 		FunctionInterfaceOne functionInterfaceOne =  () -> System.out.println("FI with no args");
 		functionInterfaceOne.abstractFunction();
 		
+		FunctionInterfaceOne.staticFunction1();
+		FunctionInterfaceOne.staticFunction2();
+		
+		functionInterfaceOne.defaultFunction1();
+		functionInterfaceOne.defaultFunction2();
+		
 		FunctionInterfaceTwo functionInterfaceTwo =  (String s) -> {
 			System.out.println("FI with no args "+s);
 			System.out.println(s);

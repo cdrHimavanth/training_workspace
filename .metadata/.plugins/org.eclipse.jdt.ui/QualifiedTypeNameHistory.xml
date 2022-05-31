@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="Employee"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="Department"/>
     <fullyQualifiedTypeName name="com.services.Printer"/>
@@ -36,7 +35,6 @@
     <fullyQualifiedTypeName name="com.model.PaperMoney"/>
     <fullyQualifiedTypeName name="com.service.WalletWorksInterface"/>
     <fullyQualifiedTypeName name="com.service.WalletWorksImpl"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="com.model.SortById"/>
     <fullyQualifiedTypeName name="com.model.SortBySalary"/>
@@ -44,6 +42,22 @@
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="com.main.QueueDemo"/>
+    <fullyQualifiedTypeName name="com.service.InterfaceOne"/>
+    <fullyQualifiedTypeName name="com.service.InterfaceOneImpl1"/>
+    <fullyQualifiedTypeName name="com.service.InterfaceOneImpl2"/>
+    <fullyQualifiedTypeName name="com.service.FunctionInterfaceTwo"/>
+    <fullyQualifiedTypeName name="com.service.FunctionInterfaceThree"/>
+    <fullyQualifiedTypeName name="com.exceptions.DivisionByZeroException"/>
+    <fullyQualifiedTypeName name="com.service.FunctionInterfaceOne"/>
+    <fullyQualifiedTypeName name="com.model.FunctionalInterfaceWithObject"/>
+    <fullyQualifiedTypeName name="java.util.function.BiConsumer"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.function.BiFunction"/>
+    <fullyQualifiedTypeName name="com.main.InstanceMethodDemo"/>
+    <fullyQualifiedTypeName name="com.service.MyInterface"/>
+    <fullyQualifiedTypeName name="com.service.StaticInterface"/>
+    <fullyQualifiedTypeName name="com.service.StaticClass"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.model.Employee"/>
+    <fullyQualifiedTypeName name="com.service.BusinessService"/>
 </qualifiedTypeNameHistroy>
