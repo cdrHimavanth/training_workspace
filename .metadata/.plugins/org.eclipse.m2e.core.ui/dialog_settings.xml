@@ -51,6 +51,9 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="springmvc"/>
+			<item value="springwithannotations"/>
+			<item value="springcore"/>
 			<item value="jdbctrailanderror"/>
 			<item value="mavenjdbcdemo1"/>
 			<item value="streamsmavendemo"/>
@@ -63,9 +66,6 @@
 			<item value="maven19demo"/>
 			<item value="maven18task"/>
 			<item value="mavencollectiondemo"/>
-			<item value="mavenwithexception17task"/>
-			<item value="maveninterfacebased1"/>
-			<item value="may16task"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+    http://www.springframework.org/schema/beans/spring-beans.xsd 
+    http://www.springframework.org/schema/context 
+    http://www.springframework.org/schema/context/spring-context.xsd" default-lazy-init="true">
+	<bean
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<value>classpath*:/anyname.properties</value>
+			</list>
+		 </property>
+	</bean>
+	<import resource="springconfig2.xml"></import>
+	<bean name="departmentId" class="com.model.Department" >
+	</bean>
+	<bean id="departmentId2" class="com.model.Department" >
+		<property name="deptNo" value="${apple}"></property>
+		<property name="deptName" value="${mango}"></property>
+	</bean>
+	<bean id="employeeId" class="com.model.Employee">
+	</bean>
+	
+	<bean id="employeeId2" class="com.model.Employee" >
+		<constructor-arg value="20"></constructor-arg>
+		<constructor-arg value="Two"></constructor-arg>
+	</bean>
+
+
+
+
+</beans>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+    http://www.springframework.org/schema/beans/spring-beans.xsd 
+    http://www.springframework.org/schema/context 
+    http://www.springframework.org/schema/context/spring-context.xsd" default-lazy-init="true">
+    <bean
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<value>classpath*:/anyname.properties</value>
+			</list>
+		 </property>
+	</bean>
+	
+	<bean id="employeeId1" class="com.model.Employee" >
+		<constructor-arg value="10"></constructor-arg>
+		<constructor-arg value="ten"></constructor-arg>
+	</bean>
+	<bean id="employeeId2" class="com.model.Employee" >
+		<constructor-arg value="20"></constructor-arg>
+		<constructor-arg value="Two"></constructor-arg>
+	</bean>
+	<bean id="employeeId3" class="com.model.Employee" >
+		<constructor-arg value="30"></constructor-arg>
+		<constructor-arg value="Two"></constructor-arg>
+	</bean>
+	
+	<bean id="departmentId" class="com.model.Department" >
+		<property name="deptNo" value="${apple}"></property>
+		<property name="deptName" value="${mango}"></property>
+		<property name="employees">
+			<list>
+				<ref bean="employeeId1"></ref>
+				<ref bean="employeeId2"></ref>
+				<ref bean="employeeId3"></ref>
+			</list>
+		</property>
+	</bean>
+
+
+</beans>

@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="Department"/>
     <fullyQualifiedTypeName name="com.services.Printer"/>
     <fullyQualifiedTypeName name="com.services.Addition"/>
     <fullyQualifiedTypeName name="com.services.Calculator"/>
@@ -27,7 +25,6 @@
     <fullyQualifiedTypeName name="com.model.NoMoreSpaceInArrayException"/>
     <fullyQualifiedTypeName name="com.service.EmployeeWorksImpl"/>
     <fullyQualifiedTypeName name="com.service.EmployeeWorksInterface"/>
-    <fullyQualifiedTypeName name="com.model.Department"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="com.model.Address"/>
     <fullyQualifiedTypeName name="com.model.Wallet"/>
@@ -58,6 +55,9 @@
     <fullyQualifiedTypeName name="com.service.StaticInterface"/>
     <fullyQualifiedTypeName name="com.service.StaticClass"/>
     <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="com.model.Employee"/>
     <fullyQualifiedTypeName name="com.service.BusinessService"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="com.model.Employee"/>
+    <fullyQualifiedTypeName name="com.model.Department"/>
 </qualifiedTypeNameHistroy>
